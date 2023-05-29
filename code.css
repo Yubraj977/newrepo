@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+html{
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/* ----style for the header section------- */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 5rem;
+    font-size: 1.6rem;
+}
+.head-right nav ul{
+    display: flex;
+    
+}
+.head-right nav ul li a{
+    color: black;
+    margin-left: 3.5rem;
+}
+.head-right nav ul li a:hover{
+    background: var(--primary);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.logo{
+    font-size: 2.2rem;
+}
+#codes{
+    background: var(--primary);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* ---style for the types of prgramming language we provide ----*/
+.types{
+    margin: 4rem 5rem;
+    font-size: 1.6rem;
+}
+
+.types table th{
+    padding-left: 13rem;
+}
+.blog-post1{
+    display: flex;
+   
+    width: 100%;
+    margin-top: 1rem;
+
+}
+.blog-post1-right{
+    width: 10%;
+}
+.blog-post1-left{
+    width: 90%;
+}
+
+
+/* style for the post section */
+.posts-section{
+    margin: 4rem 5rem;
+    
+}
